@@ -123,18 +123,6 @@ If you're going to train a model, EDA is your warm-up stretch.
 🎯 Why it matters: [Explain it to your future model]
 ✏️ This step is like [analogy or real-world link]
 🌍 ML Scenarios You’ll Explore
-Each child notebook you'll use follows this structure — but applies it to a real-world problem. Pick your adventure:
-
-🌟 Scenario	🧠 Type	🎯 Target	🧪 EDA Focus
-Loan Default Prediction	Binary Classification	defaulted	Skewness, Leakage
-Customer Churn	Binary Classification	is_churned	Time profiling, imbalance
-Ad Click Prediction	Binary Classification	clicked	High cardinality, CTR
-Employee Attrition	Binary Classification	attrition	Categorical imbalance
-Stock Trend Classification	Multiclass	price_trend	Time series, leakage
-Sentiment Classification	Multiclass	sentiment	Text stats, boxplot
-Disease Diagnosis	Multiclass	diagnosis_code	Class imbalance, NLP
-Product Clustering	Unsupervised	-	Segmentation, PCA
-👉 Which one will you explore first? Check the matching notebook!
 
 🧭 Pro Tips & Red Flags
 🔓 EDA is your cheat code to better models — if done right.
@@ -161,15 +149,4 @@ Here’s your visual toolkit. Learn these and you’re 80% of the way there.
 🎯 Pairplot → Pairwise relationships
 🎻 Violinplot → Distribution + spread in one go
 👀 Look for these in the child notebooks. Try to tweak them, too!
-
-EDA Analysis on below topics
-#	ML Scenario	EDA Angle	Target Type	Example Target
-1	Loan Default Prediction	Outliers, skewness, leakage risk	Binary Classification	defaulted
-2	Customer Churn	Time-to-event, imbalance, date profiling	Binary Classification	is_churned
-3	Ad Click Prediction	High cardinality, CTR imbalance, campaign profiling	Binary Classification	clicked
-4	Employee Attrition	HR data quality, tenure, categorical imbalance	Binary Classification	attrition
-5	Credit Score Segmentation	Clustering, PCA, outlier handling	Unsupervised	(generate clusters)
-6	Disease Diagnosis	Text + categorical, class imbalance, leakage	Multiclass Classification	diagnosis_code
-7	Sentiment Classification (NLP)	Text stats, length, sentiment scores	Binary/Multiclass	sentiment
-8	Product Recommendation Clustering	High-dimensional, behavioral clustering	Unsupervised	(clustering labels)
 
